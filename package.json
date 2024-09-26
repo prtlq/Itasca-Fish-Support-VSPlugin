@@ -1,8 +1,14 @@
 {
-  "name": "Fish",
+  "name": "fish-language-support",
   "displayName": "Itasca Fish Language Support",
-  "description": "Syntax highlighting and support for the Itasca FISH language used in numerical modeling software like FLAC3D, PFC, and 3DEC.",
   "version": "0.0.1",
+  "publisher": "Pouria Taleghani",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prtlq/Fish"
+  },
+
+  "description": "Syntax highlighting and support for the Itasca FISH language used in numerical modeling software like FLAC3D, PFC, and 3DEC.",
   "engines": {
     "vscode": "^1.93.0"
   },
