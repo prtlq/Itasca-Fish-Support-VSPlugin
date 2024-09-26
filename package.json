@@ -1,0 +1,36 @@
+{
+  "name": "Fish",
+  "displayName": "Itasca Fish Language Support",
+  "description": "Syntax highlighting and support for the Itasca FISH language used in numerical modeling software like FLAC3D, PFC, and 3DEC.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "fish",
+        "aliases": ["FISH", "fish"],
+        "extensions": [".fis"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fish",
+        "scopeName": "source.fish",
+        "path": "./syntaxes/fish.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Fish Default Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fish-color-theme.json"
+      }
+    ]
+  }
+}

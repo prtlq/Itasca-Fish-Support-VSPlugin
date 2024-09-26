@@ -1,0 +1,66 @@
+{
+    "name": "Fish Default Theme",
+    "type": "dark",  // You can change this to "light" for light themes
+    "colors": {
+      "editor.background": "#1E1E1E",  // Dark background
+      "editor.foreground": "#D4D4D4"   // Default text color
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword.control.fish",
+        "settings": {
+          "foreground": "#C586C0"  // Purple for control keywords
+        }
+      },
+      {
+        "scope": "keyword.control.end.fish",
+        "settings": {
+          "foreground": "#C586C0"  // Purple for end control keywords
+        }
+      },
+      {
+        "scope": "keyword.operator.fish",
+        "settings": {
+          "foreground": "#d4d4d4"  // Operators (like +, -, =) default text color
+        }
+      },
+      {
+        "scope": "comment.line.fish",
+        "settings": {
+          "foreground": "#6A9955",  // Green for comments
+          "fontStyle": "italic"     // Italicized comments
+        }
+      },
+      {
+        "scope": "variable.language.fish",
+        "settings": {
+          "foreground": "#ee9cfe"  // Light blue for variables
+        }
+      },
+      {
+        "scope": "constant.numeric.fish",
+        "settings": {
+          "foreground": "#B5CEA8"  // Light green for numbers
+        }
+      },
+      {
+        "scope": "keyword.other.prefix.fish",
+        "settings": {
+          "foreground": "#DCDCAA"  // Yellow for prefix keywords
+        }
+      },
+      {
+        "scope": "keyword.other.words3.fish",
+        "settings": {
+          "foreground": "#79e0ca"  // Cyan for complex keywords
+        }
+      },
+      {
+        "scope": "keyword.other.words4.fish",
+        "settings": {
+          "foreground": "#56d690"  // Blue for function-like keywords
+        }
+      }
+    ]
+  }
+  
