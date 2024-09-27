@@ -17,30 +17,7 @@ This Visual Studio Code extension provides basic syntax highlighting for the FIS
 - **Variables**: Common FISH functions and variables like `apply`, `array`, `call`, `config`, `solve`, etc.
 - **Numbers**: Numeric constants
 
-## Installation
-
-1. Clone or download this repository.
-2. Open the folder in Visual Studio Code.
-3. Press `F5` to open a new VSCode window with the extension loaded.
-4. Open a `.fis` file to see the syntax highlighting in action.
-
-Alternatively, you can install this extension from the Visual Studio Marketplace (if published).
-
 ## Usage
 
-- Install the extension and associate `.fis` files with the FISH language.
+- Install the extension and associate `.fis` and `.dat` files with the FISH language.
 - The syntax highlighting should automatically apply when you open a FISH file.
-
-## Example
-
-Here is an example of FISH code that will be highlighted:
-
-```fis
-define myFunction
-    ; This is a comment
-    if x < 5 then
-        loop
-            call someFunction()
-        end_loop
-    endif
-end
