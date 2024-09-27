@@ -1,6 +1,6 @@
 # FISH Language Support for Visual Studio Code
 
-This Visual Studio Code extension provides basic syntax highlighting for the FISH programming language, commonly used in Itasca's FLAC3D and other geotechnical software.
+This Visual Studio Code extension provides basic syntax highlighting for the FISH programming language, commonly used in Itasca's FLAC3D, 3DEC, PFC and other geotechnical software.
 
 ## Features
 
